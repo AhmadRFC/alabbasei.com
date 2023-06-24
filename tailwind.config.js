@@ -10,13 +10,13 @@ module.exports = {
         titleFont: ["Poppins", "sans-serif"],
       },
       colors: {
-        bodyColor: "#e3e3e3",
-        lightText: "#736666",
+        bodyColor: "#f5f5f5",
+        lightText: "#979797",
         boxBg: "lineaer-gradiant(90deg, ##22241e, ##262b23)",
-        designColor: "#98d900",
+        designColor: "#0da921",
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #20221c, -10px -10px 19px #282d24",
+        shadowOne: "3px 3px 10px #8d8f8b, -3px -3px 10px #8d8f8b",
       },
     },
   },
