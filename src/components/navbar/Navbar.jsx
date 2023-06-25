@@ -5,7 +5,7 @@ import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-21 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-500">
+    <div className="w-full h-21 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-500">
       <div>
         <img src={logo} alt="logo" className="w-20 mt-3 mb-1" />
       </div>

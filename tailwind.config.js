@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bodyFont: ["Oswald", "sans-serif"],
-        titleFont: ["Poppins", "sans-serif"],
+        titleFont: ['Lato', 'sans-serif'],
+        bodyFont: ['Raleway', 'sans-serif'],
       },
       colors: {
         bodyColor: "#f5f5f5",

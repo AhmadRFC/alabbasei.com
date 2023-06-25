@@ -25,7 +25,7 @@ const LeftBanner = () => {
     <div className="w-1/7 flex flex-col gap-24">
     <div className="flex flex-col gap-4">
       <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
-      <h1 className="text-4xl font-bold text-gray-500">
+      <h1 className="text-4xl font-bold font-titleFont text-gray-500">
         Hi, I'm
         <span className="text-designColor capitalize">
           {" "}
