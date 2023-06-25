@@ -57,10 +57,10 @@ const LeftBanner = () => {
 
     <div className="flex justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-3">
+        <h2 className="text-base uppercase font-titleFont mb-3 ml-3">
           Find me in
         </h2>
-        <div className="flex gap-4">
+        <div className="flex gap-4 ml-3">
           <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
             <FaTwitter size={25}/>
           </span>
