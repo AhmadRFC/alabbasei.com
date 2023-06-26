@@ -24,7 +24,7 @@ jobs:
         with:
           action: "upload"
           app_build_command: 'npm run build-ui-prod'
-          app_location: "src"    # Change this to the location of your app source code
+          app_location: "build/index.html"    # Change this to the location of your app source code
           api_location: ""     # Change this if you have an API folder
           output_location: "build"   # Change this to the build output directory
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_GLACIER_057AE4203 }}
