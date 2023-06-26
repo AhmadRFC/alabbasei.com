@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'Alabbasei'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_63AEE7955C054D4E8532BA735B617E70 }}
+          publish-profile: ${{ secrets.PUBLISH_PROFILE_SECRET }}
           package: '*.jar'
