@@ -1,0 +1,37 @@
+{
+    "azure.tenant": "2d3194e3-1654-46bd-bae2-ad37ba11b0ae",
+    "http.proxyStrictSSL": false,
+    "http.proxySupport": "off",
+    "http.systemCertificates": false,
+    "http.proxyAuthorization": null,
+    "microsoft-sovereign-cloud.endpoint": null,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 13.5,
+    "terminal.integrated.env.osx": {},
+    "editor.inlineSuggest.enabled": true,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "editor.suggest.showSuggestions",
+        "editor.suggest.showInlineSuggestionDetails",
+        "editor.suggest.showStatusBar",
+        "editor.suggest.insertMode"
+    ],
+    "terminal.integrated.tabs.location": "left",
+    "editor.linkedEditing": true,
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "css.lint.unknownAtRules": "ignore"      
+}
