@@ -1,5 +1,5 @@
 // example.test.js
-
+import '@testing-library/jest-dom';
 import React from 'react';
 import { render } from '@testing-library/react';
 import ExampleComponent from './ExampleComponent';
