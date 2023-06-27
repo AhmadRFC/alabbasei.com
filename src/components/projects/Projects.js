@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="My Projects" />
       </div>
-      <div className="grid grid-col-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-56 mx-24 bg-amber-400">
+      <div className="grid grid-col-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-56 mx-24">
         <ProjectsCard 
           title='Hi this is a title'
           des='this is a descriptiomajkscnjksfna asfija so jasn'
