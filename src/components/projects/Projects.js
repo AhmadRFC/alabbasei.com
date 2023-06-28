@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../Layouts/Title";
 import ProjectsCard from "./ProjectsCard";
 import { prjOne } from "../../assets";
+import { prjTwo } from "../../assets";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
         <ProjectsCard 
           title='Hi this is a title'
           des='this is a descriptiomajkscnjksfna asfija so jasn'
-          // src={prjTwo}
+          src={prjTwo}
         />
       </div>
     </section>
