@@ -6,11 +6,10 @@ import Card from "./Card";
 
 const WhatIDo = () => {
   return (
-    <section
-      id="WhatIDo"
-      className="w-full pt-3 px-5"
-    >
-      <Title title="What I Do" />
+    <section id="WhatIDo" className="w-full pt-1 px-5">
+      <div className="flex justify-center">
+        <Title title="What I Do" />
+      </div>
       <div className="grid grid-cols-1 gap-5">
         <Card
           title="Bus Strat"
