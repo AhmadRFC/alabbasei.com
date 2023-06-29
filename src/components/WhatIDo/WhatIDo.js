@@ -8,10 +8,10 @@ const WhatIDo = () => {
   return (
     <section
       id="WhatIDo"
-      className="w-full pb-20 pt-16 px-5 border-b-[1px] border-b-black"
+      className="w-full pt-3 px-5"
     >
       <Title title="What I Do" />
-      <div className="grid grid-cols-3 gap-16">
+      <div className="grid grid-cols-1 gap-5">
         <Card
           title="Bus Strat"
           des="a bunch of text over here to acoomdeitanj fja fuf wejg sjdnsdfjbsgjsd gwehjgbwhje sd"
