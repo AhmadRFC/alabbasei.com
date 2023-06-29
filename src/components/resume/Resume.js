@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full px-5 py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="My Resume" />
+        <Title title="Resume" />
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">

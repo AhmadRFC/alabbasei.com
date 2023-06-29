@@ -6,7 +6,11 @@ import Card from "./Card";
 const WhatIDo = () => {
   return (
     <div className="w-[100%] px-2">
-        <h1 className="text-4xl font-bold font-titleFont text-gray-500 mb-4">What I Do</h1>
+      <div className="flex justify-center mb-2">
+        <h1 className="text-4xl font-bold font-titleFont text-gray-500 my-4">
+          What I Do
+        </h1>
+      </div>
       <div className="grid grid-cols-1 gap-5">
         <Card
           title="Bus Strat"

@@ -39,13 +39,14 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont w-90">
           Senior Information Technology Student At King Abdulaziz University
         </p>
-
-        <p className="text-base font-bodyFont w-full">
-          with a Specialization in Software Engineering | First Class-Honours
+        <div className="flex justify-between font-bodyFont w-full">
+        <p>
+          with a focus on Software Engineering | First Class-Honours 
         </p>
-        <p className="w-20 flex justify-center text-designColor font-bodyFont capitalize ml-1">
-          GPA 4.91/5.0
+        <p className="text-designColor font-titleFont ml-1"> 
+           GPA 4.91/5.0
         </p>
+        </div>
       </div>
       <div className="flex flex-col ">
         <div>
@@ -65,7 +66,7 @@ const LeftBanner = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont my-3 ml-3">
+          <h2 className="text-base uppercase font-titleFont mt-10 mb-5 ml-3">
             Technologies I Use
           </h2>
           <div className="flex gap-4 ml-3">
