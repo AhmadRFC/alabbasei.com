@@ -10,7 +10,7 @@ module.exports = {
         bodyFont: ['Raleway', 'sans-serif'],
       },
       colors: {
-        bodyColor: "#f0f0f0",
+        bodyColor: "#F8F8F8",
         lightText: "#979797",
         boxBg: "lineaer-gradiant(90deg, ##22241e, ##262b23)",
         designColor: "#b88ae6",

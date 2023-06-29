@@ -22,9 +22,9 @@ const LeftBanner = () => {
     delaySpeed: 1500,
   });
   return (
-    <div className="w-1/7 flex flex-col gap-24">
-      <div className="mt-3 flex flex-col gap-4">
-        <h1 className="text-5xl font-bold font-titleFont text-gray-500">
+    <div className="w-1/7 flex flex-col gap-5">
+      <div className="mt-5 flex flex-col gap-4">
+        <h1 className="text-4xl font-bold font-titleFont text-gray-500">
           Hi, I'm
           <span className="text-designColor capitalize"> Ahmad Alabbasei</span>
         </h1>
@@ -40,18 +40,14 @@ const LeftBanner = () => {
           Senior Information Technology Student At King Abdulaziz University
         </p>
 
-        <div className="flex items-center">
-          <p className="text-base font-bodyFont w-90">
-            with a Specialization in Software Engineering | First Class-Honours
-            |
-          </p>
-          <p className="text-designColor font-bodyFont capitalize ml-1">
-            GPA 4.91/5.0
-          </p>
-        </div>
+        <p className="text-base font-bodyFont w-full">
+          with a Specialization in Software Engineering | First Class-Honours
+        </p>
+        <p className="w-20 flex justify-center text-designColor font-bodyFont capitalize ml-1">
+          GPA 4.91/5.0
+        </p>
       </div>
-
-      <div className="flex justify-between">
+      <div className="flex flex-col ">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-3 ml-3">
             Find me in
@@ -69,10 +65,10 @@ const LeftBanner = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-3 ml-20">
+          <h2 className="text-base uppercase font-titleFont my-3 ml-3">
             Technologies I Use
           </h2>
-          <div className="flex gap-4 ml-20">
+          <div className="flex gap-4 ml-3">
             <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
               <SiJavascript size={40} />
             </span>
@@ -86,7 +82,7 @@ const LeftBanner = () => {
               <SiTailwindcss size={40} />
             </span>
           </div>
-          <div className="flex gap-4 ml-20 mt-5">
+          <div className="flex gap-4 ml-3 mt-5">
             <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
               <SiPostgresql size={40} />
             </span>

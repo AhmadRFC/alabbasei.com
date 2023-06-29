@@ -3,7 +3,7 @@ import WhatIDo from '../WhatIDo/WhatIDo'
 
 const RightBanner = () => {
   return (
-    <div className='w-1/2 flex justify-center items-center relative'>
+    <div className='w-1/2 flex justify-center items-center'>
       <WhatIDo />
     </div>
   )
