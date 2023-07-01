@@ -22,13 +22,13 @@ const LeftBanner = () => {
     delaySpeed: 1500,
   });
   return (
-    <div className="w-1/7 flex flex-col gap-5">
+    <div className="w-1/7 lgl:w-1/7 flex flex-col gap-5">
       <div className="mt-5 flex flex-col gap-4">
-        <h1 className="text-4xl font-bold font-titleFont text-gray-500">
+        <h1 className="text-4xl font-bold font-titleFont text-[#000000b3]">
           Hi, I'm
           <span className="text-designColor capitalize"> Ahmad Alabbasei</span>
         </h1>
-        <h2 className="text-2xl font-bold text-gray-500">
+        <h2 className="text-2xl font-bold text-[#000000b3]">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -36,21 +36,18 @@ const LeftBanner = () => {
             cursorColor="#b88ae6"
           />
         </h2>
-        <p className="text-base font-bodyFont w-90">
+        <p className="text-base font-titleFont w-90">
           Senior Information Technology Student At King Abdulaziz University
         </p>
-        <div className="flex justify-between font-bodyFont w-full">
+        <div className="flex justify-between font-titleFont w-full">
         <p>
-          with a focus on Software Engineering | First Class-Honours 
-        </p>
-        <p className="text-designColor font-titleFont ml-1"> 
-           GPA 4.91/5.0
+          with a focus on Software Engineering | First Class-Honours | GPA 4.91/5.0
         </p>
         </div>
       </div>
       <div className="flex flex-col ">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-3 ml-3">
+          <h2 className="text-base text-[#000000b3] uppercase font-titleFont mb-3 ml-3">
             Find me in
           </h2>
           <div className="flex gap-4 ml-3">
@@ -66,7 +63,7 @@ const LeftBanner = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mt-10 mb-5 ml-3">
+          <h2 className="text-base text-[#000000b3] uppercase font-titleFont mt-10 mb-5 ml-3">
             Technologies I Use
           </h2>
           <div className="flex gap-4 ml-3">

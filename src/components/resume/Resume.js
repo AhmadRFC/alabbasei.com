@@ -20,8 +20,8 @@ const Resume = () => {
             }
             className={`${
               educationData
-                ? "border-designColor"
-                : "border-transparent"
+                ? "border-designColor text-[#000000b3]"
+                : "border-transparent text-[#000000b3]"
             } resumeLi`}
           >
             Education & Experience
@@ -32,7 +32,7 @@ const Resume = () => {
               setSkillData(true)
             }
             className={`${
-              skillData ? "border-designColor" : "border-transparent"
+              skillData ? "border-designColor text-[#000000b3]" : "border-transparent text-[#000000b3]"
             } resumeLi`}
           >
             Professional Skills

@@ -6,7 +6,7 @@ import { prjTwo } from "../../assets";
 
 const Projects = () => {
   return (
-    <section id="projects" className="w-full py-20 border-b-[1px] border-b-black">
+    <section id="projects" className="w-full py-20 border-b-[1px] border-b-black text-[#000000b3]">
       <div className="flex justify-center items-center text-center">
         <Title title="Projects" />
       </div>

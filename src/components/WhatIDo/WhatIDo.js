@@ -7,7 +7,7 @@ const WhatIDo = () => {
   return (
     <div className="w-[100%] px-2">
       <div className="flex justify-center mb-2">
-        <h1 className="text-4xl font-bold font-titleFont text-gray-500 my-4">
+        <h1 className="text-4xl font-bold font-titleFont text-[#000000b3] my-4">
           What I Do
         </h1>
       </div>

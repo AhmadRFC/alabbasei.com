@@ -14,9 +14,4 @@ export const navLinksdata = [
     title: "Projects",
     link: "projects",
   },
-  {
-    _id: 1004,
-    title: "Contact",
-    link: "contact",
-  },
 ];
