@@ -22,7 +22,7 @@ const LeftBanner = () => {
     delaySpeed: 1500,
   });
   return (
-    <div className="w-1/7 lgl:w-1/7 flex flex-col gap-5">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="mt-5 flex flex-col gap-4">
         <h1 className="text-4xl font-bold font-titleFont text-[#000000b3]">
           Hi, I'm
@@ -45,7 +45,7 @@ const LeftBanner = () => {
         </p>
         </div>
       </div>
-      <div className="flex flex-col ">
+      <div className="grid grid-cols-1 xl:flex-row justify-between gap-6 lgl:gap-0">
         <div>
           <h2 className="text-base text-[#000000b3] uppercase font-titleFont mb-3 ml-3">
             Find me in
@@ -62,7 +62,7 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
-        <div>
+        <div className="">
           <h2 className="text-base text-[#000000b3] uppercase font-titleFont mt-10 mb-5 ml-3">
             Technologies I Use
           </h2>

@@ -11,7 +11,7 @@ const WhatIDo = () => {
           What I Do
         </h1>
       </div>
-      <div className="grid grid-cols-1 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-1 gap-8">
         <Card
           title="Bus Strat"
           des="a bunch of text over here to acoomdeitanj fja fuf wejg sjdnsdfjbsgjsd gwehjgbwhje sd"

@@ -8,7 +8,7 @@ const ProjectsCard = ({ title, des, src }) => {
       <div className="w-full h-[80%] rounded-lg">
         <div className="flex justify-center">
         <img
-          className="w-auto h-60 object-cover group-hover:scale-95 duration-300 cursor-pointer"
+          className="w-auto xl:h-60 h-auto z-10 object-cover group-hover:scale-95 duration-300 cursor-pointer"
           src={src}
           alt="src"
         />
@@ -20,11 +20,11 @@ const ProjectsCard = ({ title, des, src }) => {
                 {" "}
                 {title}{" "}
               </h3>
-              <div className="flex  gap-2">
-                <span className="text-lg w-10 h-10 rounded-full bg-[#d1d5db] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
+              <div className="flex gap-2">
+                <span className="text-lg w-14 h-14 rounded-full bg-[#d1d5db] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
                   <BsGithub size={20} />
                 </span>
-                <span className="text-lg w-10 h-10 rounded-full bg-[#d1d5db] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
+                <span className="text-lg w-14 h-14 rounded-full bg-[#d1d5db] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
                   <FaGlobe size={20} />
                 </span>
               </div>
