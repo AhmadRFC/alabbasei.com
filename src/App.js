@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="w-full bg-bodyColor text-lightText px-4">
+    <div className="w-full bg-bodyColor text-lightText px-4 overflow-hidden">
       <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
