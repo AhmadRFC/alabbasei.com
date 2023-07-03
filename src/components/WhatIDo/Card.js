@@ -10,10 +10,10 @@ const Card = ({ title, des, icon }) => {
             <span className="text-5xl text-designColor">{icon}</span>
           </div>
           <div className="flex gap-8">
-            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-[#000000b3]">
+            <h2 className="text-xl md:text-xl font-titleFont font-bold text-[#000000b3]">
               {title}
             </h2>
-            <p className="text-[#00000080]">{des}</p>
+            <p className="text-[#00000080] text-sm">{des}</p>
             <div className="flex justify-center items-end">
               <span className="text-designColor">
                 <BsArrowRightShort size={44} />
