@@ -13,6 +13,7 @@ const Navbar = () => {
       <div>
         <img src={logo} alt="logo" className="w-20 mt-3 mb-1" />
       </div>
+      <div className=" text-designColor text-2xl lgl:text-4xl px-5">-&#62;&#123; Website Under Construction &#125;&#60;-</div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
@@ -48,13 +49,6 @@ const Navbar = () => {
                   An ambitious Information Technology student specializing in
                   software engineering. With a GPA of 4.91 out of 5, I am eager
                   to apply my skills & knowledge in a professional setting!
-                  Throughout my academic journey, I have developed a strong
-                  foundation in programming languages as experience using
-                  various development & management My personal projects have
-                  also given me the opportunity to work different frameworks and
-                  technologies. These experiences have enabled me to learn and
-                  grow as a developer, providing me with practical insights and
-                  knowledge regarding the development process.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
