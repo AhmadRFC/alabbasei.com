@@ -3,9 +3,10 @@ import { logo } from "../../assets/index";
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <div className="w-full h-auto py-20 border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
+    <div className="w-full h-auto pt-20 border-b-[1px] border-b-black grid grid-cols-1 place-items-center md:grid-cols-1 lgl:grid-cols-1 gap-20">
+      <div className="w-full h-full flex flex-col items-center gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <a
@@ -37,14 +38,24 @@ const Footer = () => {
           </a>
         </div>
       </div>
-
-      <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          Quick Links
-        </h3>
+      <div className="lgl:flex justify-center gap-52">
+        {" "}
+        <p className="text-gray-600 flex justify-center select-none">
+          &copy; {currentYear}&nbsp;All rights reserved. Made with&nbsp;
+          <span className="text-red-500">&hearts;&nbsp;</span>by&nbsp;
+          <a className="text-designColor"
+            href="https://github.com/AhmadRFC"
+            target="_blank"
+            rel="noreferrer"
+          >AhmadRFC 🇸🇦</a>
+        </p>
+        <p className="flex justify-center">
+          This website is open-source on <a className="text-designColor"
+            href="https://github.com/AhmadRFC/alabbasei.com"
+            target="_blank"
+            rel="noreferrer">&nbsp;GitHub</a>
+        </p>
       </div>
-      <div className="w-full h-full"></div>
-      <div className="w-full h-full"></div>
     </div>
   );
 };

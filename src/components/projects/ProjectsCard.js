@@ -7,7 +7,7 @@ const ProjectsCard = ({ title, des, src, github }) => {
       <div className="w-full h-[80%] rounded-lg">
         <div className="flex justify-center">
           <img
-            className="w-auto xl:h-60 h-auto z-10 object-cover group-hover:scale-95 duration-300 cursor-pointer"
+            className="w-auto xl:h-60 h-auto z-10 object-cover group-hover:scale-95 duration-300"
             src={src}
             alt="src"
           />
@@ -21,7 +21,7 @@ const ProjectsCard = ({ title, des, src, github }) => {
               </h3>
               <div className="flex gap-2">
                 <a href={github} target="_blank" rel="noreferrer">
-                  <span className="text-lg w-14 h-14 rounded-full bg-[#d1d5db] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
+                  <span className="text-lg w-14 h-14 rounded-full bg-[#c8ccd2] inline-flex justify-center items-center text-[#848484] hover:text-designColor hover:scale-95 duration-300 cursor-pointer">
                     <BsGithub size={20} />
                   </span>
                 </a>

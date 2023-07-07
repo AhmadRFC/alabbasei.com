@@ -26,7 +26,7 @@ const LeftBanner = () => {
       <div className="mt-5 flex flex-col gap-4">
         <h1 className="text-4xl font-bold font-titleFont text-[#000000b3]">
           Hi, I'm
-          <span className="text-designColor capitalize"> Ahmad Alabbasei</span>
+          <span className="text-designColor capitalize"> Ahmad Alabbasei 👋</span>
         </h1>
         <h2 className="text-2xl font-bold text-[#000000b3]">
           a <span>{text}</span>
@@ -38,13 +38,9 @@ const LeftBanner = () => {
         </h2>
         <p className="text-base font-titleFont w-90">
           Senior Information Technology Student At King Abdulaziz University
+          with a focus on Software Engineering | First Class-Honours | GPA
+          4.91/5.0
         </p>
-        <div className="flex justify-between font-titleFont w-full">
-          <p>
-            with a focus on Software Engineering | First Class-Honours | GPA
-            4.91/5.0
-          </p>
-        </div>
       </div>
       <div className="grid grid-cols-1 xl:flex-row justify-between gap-6 lgl:gap-0">
         <div>
