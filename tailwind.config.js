@@ -16,8 +16,8 @@ module.exports = {
         xl: "1280px",
       },
       fontFamily: {
-        titleFont: ['Lato', 'sans-serif'],
-        bodyFont: ['Raleway', 'sans-serif'],
+        titleFont: ['Fira Code', 'monospace'],
+        bodyFont: ['Fira Code', 'monospace'],
       },
       colors: {
         bodyColor: "#e5e7eb",

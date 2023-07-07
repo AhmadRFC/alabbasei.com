@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Title from "../Layouts/Title";
 import Education from "./Education";
-import Skills from "./Skills";
+// import Skills from "./Skills";
 
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
-  const [skillData, setSkillData] = useState(false);
+  // const [skillData, setSkillData] = useState(false);
   return (
     <section id="resume" className="w-full px-5 py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
@@ -15,8 +15,8 @@ const Resume = () => {
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
           <li
             onClick={() =>
-              setEducationData(true) &
-              setSkillData(false)
+              setEducationData(true) 
+              // setSkillData(false)
             }
             className={`${
               educationData
@@ -26,21 +26,21 @@ const Resume = () => {
           >
             Education & Experience
           </li>
-          <li
+          {/* <li
             onClick={() =>
-              setEducationData(false) &
-              setSkillData(true)
+              setEducationData(false) 
+              // setSkillData(true)
             }
             className={`${
               skillData ? "border-designColor text-[#000000b3]" : "border-transparent text-[#000000b3]"
             } resumeLi`}
           >
             Professional Skills
-          </li>
+          </li> */}
         </ul>
       </div>
       {educationData && <Education />}
-      {skillData && <Skills />}
+      {/* {skillData && <Skills />} */}
     </section>
   );
 };
