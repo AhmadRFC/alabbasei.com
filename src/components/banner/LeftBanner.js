@@ -40,9 +40,10 @@ const LeftBanner = () => {
           Senior Information Technology Student At King Abdulaziz University
         </p>
         <div className="flex justify-between font-titleFont w-full">
-        <p>
-          with a focus on Software Engineering | First Class-Honours | GPA 4.91/5.0
-        </p>
+          <p>
+            with a focus on Software Engineering | First Class-Honours | GPA
+            4.91/5.0
+          </p>
         </div>
       </div>
       <div className="grid grid-cols-1 xl:flex-row justify-between gap-6 lgl:gap-0">
@@ -51,18 +52,36 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4 ml-3">
-            <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
-              <FaTwitter size={25} />
-            </span>
-            <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
-              <BsLinkedin size={25} />
-            </span>
-            <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne transform hover:bg-opacity-40 hover:-translate-y-2 transition-all hover:text-designColor cursor-pointer duration-300">
-              <FaGithub size={25} />
-            </span>
+            <a
+              href="https://twitter.com/AhmadRFC"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
+                <FaTwitter size={25} />
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmad-alabbasei-13086326b/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300">
+                <BsLinkedin size={25} />
+              </span>
+            </a>
+            <a
+              href="https://github.com/AhmadRFC"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="w-16 h-16 bg-black bg-opacity-30 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne transform hover:bg-opacity-40 hover:-translate-y-2 transition-all hover:text-designColor cursor-pointer duration-300">
+                <FaGithub size={25} />
+              </span>
+            </a>
           </div>
         </div>
-        <div className="">
+        <div>
           <h2 className="text-base text-[#000000b3] uppercase font-titleFont mt-10 mb-5 ml-3">
             Technologies I Use
           </h2>

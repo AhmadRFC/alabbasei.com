@@ -15,11 +15,13 @@ const Projects = () => {
           title='Pricegrab'
           des='this is a descriptiomajkscnjksfna asfija so jasn'
           src={prjOne}
+          github={"https://github.com/AhmadRFC/process_scheduling_solver"}
         />
         <ProjectsCard 
           title='Processor Scheduler'
           des='this is a descriptiomajkscnjksfna asfija so jasn'
           src={prjTwo}
+          github={'https://github.com/PriceGrab/pricegrab'}
         />
       </div>
     </section>
