@@ -27,7 +27,7 @@ const ProjectsCard = ({ title, des, src, github }) => {
                 </a>
               </div>
             </div>
-            <p className="text-sm tracking-wide mt-3 hover:text-[#848484] duration-300">
+            <p className="text-sm font-bodyFont tracking-wide mt-3">
               {des}
             </p>
           </div>

@@ -50,7 +50,7 @@ const Footer = () => {
           >AhmadRFC 🇸🇦</a>
         </p>
         <p className="flex justify-center">
-          This website is open-source on <a className="text-designColor"
+          This website is open-source on<a className="text-designColor"
             href="https://github.com/AhmadRFC/alabbasei.com"
             target="_blank"
             rel="noreferrer">&nbsp;GitHub</a>

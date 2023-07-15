@@ -8,7 +8,7 @@ const Resume = () => {
   const [skillData, setSkillData] = useState(false);
   return (
     <section id="resume" className="w-full px-5 py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
+      <div className="flex justify-center font-titleFont items-center text-center">
         <Title title="Resume 📝" /> 
       </div>
       <div>
